@@ -1,0 +1,52 @@
+.dash-title {
+    color: #878585;
+    text-align: center;
+    font-weight: bold;
+}
+.day-title {
+	font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+.day-description {
+	text-align: center;
+    font-weight: bold;
+}
+.about-description {
+	text-align: center;
+}
+.author {
+	text-align: center;
+	margin: 25px;
+}
+.current-date {
+    color: #878585;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+.status-icon {
+	font-size: 100px;
+	text-align: center;
+	margin: o auto;
+	display: block;
+}
+.status-ok {
+	color: #5cae1c;
+}
+.status-info {
+	color: #a2bd0c;
+}
+.status-warning {
+	color: #cfc80d;
+}
+.status-alert {
+	color: #d0a10d;
+}
+.status-alert2 {
+	color: #d1600d;
+}
+.status-danger {
+	color: #d41616;
+}

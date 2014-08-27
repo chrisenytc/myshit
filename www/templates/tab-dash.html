@@ -1,0 +1,20 @@
+<ion-view title="My Shit">
+    <ion-content class="has-header fade-in">
+        <ion-refresher on-refresh="refresh()" pulling-text="Pull to refresh" refreshing-text="Refreshing..." refreshing-icon="ion-loading-c">
+        </ion-refresher>
+        <h5 class="dash-title">Days without going to the bathroom</h5>
+        <div class="card">
+            <div class="item item-text-wrap">
+                <h1 class="day-title" ng-bind="days" ng-class="statusDay()"></h1>
+                <p class="day-description">{{ pluralize(days) }}</p>
+            </div>
+        </div>
+        <h5 class="dash-title">Last time I went to the bathroom</h5>
+        <div class="card">
+            <div class="item item-text-wrap">
+                <i class="icon icon-left status-icon" ng-class="status()"></i> 
+                <span class="current-date" ng-bind="currentDate"></span>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
